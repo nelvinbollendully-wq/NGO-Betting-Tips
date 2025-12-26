@@ -1,3 +1,4 @@
+alert("SCRIPT IS RUNNING");
 const API = "/api/football";
 
 async function apiFetch(endpoint) {
