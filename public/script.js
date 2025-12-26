@@ -1,5 +1,5 @@
 alert("SCRIPT IS RUNNING");
-const API = "/api/football";
+const API = "/.netlify/functions/football"//;
 
 async function apiFetch(endpoint) {
   const res = await fetch(`${API}?endpoint=${endpoint}`);
