@@ -1,3 +1,4 @@
+HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,6 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+# Local Netlify folder
+.netlify
+63506e3 (Add all project files including public folder and Netlify functions)
